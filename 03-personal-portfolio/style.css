@@ -53,17 +53,62 @@ footer {
   padding: 24px;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header p {
+nav a {
+  margin: 1rem;
+  border-radius: 0.2rem;
+  border-color: cornflowerblue;
+  border-style: solid;
+  padding: 0.2rem;
+  background-color: aliceblue;
+}
+
+.header span {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 16px 0;
   border-bottom: 1px solid var(--border-color);
+}
+
+.projects ul {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+}
+
+li {
+  margin: 0.3rem;
+}
+
+.work-experience {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.work-experience p {
+  display: grid;
+  justify-content: center;
+}
+
+.education {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.education p {
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 600px) {
