@@ -81,11 +81,16 @@ nav a {
   border-bottom: 1px solid var(--border-color);
 }
 
+.projects-title {
+  margin-bottom: 0;
+}
+
 .projects ul {
   display: grid;
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid var(--border-color);
+  margin: 0;
 }
 
 li {
