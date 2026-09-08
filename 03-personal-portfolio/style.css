@@ -116,4 +116,8 @@ li {
     flex-direction: column;
     gap: 16px;
   }
+
+  nav a {
+    margin: 0.2rem;
+  }
 }
